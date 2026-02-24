@@ -1,0 +1,84 @@
+{
+  "info": {
+    "_postman_id": "ff05e4a3-d40f-408e-b136-05650468c8e3",
+    "name": "Campus_Project",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "47946300",
+    "_collection_link": "https://go.postman.co/collection/47946300-ff05e4a3-d40f-408e-b136-05650468c8e3?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Register",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"username\": \"Rojan \",\r\n    \"password\": \"1234\",\r\n    \"email\": \"rojan@gmail.com\",\r\n    \"department\": \"Computer Science\",\r\n    \"year\": 3\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "POST http://127.0.0.1:8000/api/register/",
+          "protocol": "POST http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8000",
+          "path": [
+            "api",
+            "register",
+            ""
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Login",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Create_Assignment",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "View_Assignments",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Update",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Delete",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    }
+  ]
+}
